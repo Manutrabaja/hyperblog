@@ -1,5 +1,7 @@
 body {
-    background: #1e1f24;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #333;
     text-align: center;
     font-family: Contantia;
@@ -43,4 +45,11 @@ body {
 #post {
     background: white;
     padding: 1em;
+}
+
+#footer {
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
